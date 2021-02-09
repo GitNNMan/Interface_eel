@@ -23,6 +23,6 @@ def Dollars_Rub(rub):
     return ("Сейчас 1 бакс это " + convert[0].text + " ,сука, рублей!")
     
 # Необходимо указать путь
-eel.init(".\web")
+eel.init("E:\Python\Interface_eel\web")
 
 eel.start("main.html", size=(700, 700))
